@@ -11,7 +11,10 @@ The built-in dev-server allows you to preview your documentation as you're writi
 
 ## GIT Setup
 
-Create GIT Repository
+1. create GIT Repository
+2. setup git pages
+
+3. publish code to git
 
 ```git init
 git add .
@@ -19,9 +22,6 @@ git commit -m "first commit"
 git remote add origin <https://github.com/user_name/repo_name.git>
 git push -u origin master ```
 
-setup gitpages
-
-Push existing repository
 
 ```git remote add origin <https://github.com/user_name/repo_name.git>
 git push -u origin master```
@@ -36,7 +36,7 @@ git push -u origin master```
 
 ## more info
 
-tba
+ git remote add origin ssh://git@github.com/bissessr/mkdocs.git
 
 
 ## Publish on Git
